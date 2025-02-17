@@ -15,21 +15,20 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Mjheverett
-  description: "Mjheverett description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
+  description: "Software Developer"
+  keywords: [Portfolio, Blog, Development, Freelance]
+  author: Matthew Everett
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -66,8 +65,10 @@ params:
     buttons:
       - name: About
         url: about
-      - name: Posts
-        url: posts
+      # - name: Projects
+      #   url: projects
+      # - name: Posts
+      #   url: posts
 
   socialIcons:
     - name: github
@@ -103,17 +104,21 @@ params:
 menu:
   main:
     - identifier: about
-      name: about
+      name: About
       url: /about/
       weight: 10
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 20
     # - identifier: posts
     #   name: posts
     #   url: /posts/
-    #   weight: 20
+    #   weight: 30
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
-    #   weight: 30
+    #   weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
