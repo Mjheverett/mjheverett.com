@@ -75,6 +75,8 @@ params:
       url: "https://github.com/mjheverett/"
     - name: linkedin
       url: "https://linkedin.com/mjheverett/"
+    # - name: mastodon
+    #   url: "https://mastodon.social/@Mjheverett"
 
   analytics:
     google:
@@ -85,10 +87,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/mjheverett/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/mjheverett/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
